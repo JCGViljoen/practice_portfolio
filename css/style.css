@@ -1,7 +1,255 @@
-::after,
-::before{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  header {
+    position: relative;
+  }
+  
+  .navbar {
+    padding: 1rem 0;
+  }
+  
+  .hero {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+  
+  .btn-primary.disabled, .btn-primary:disabled {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+  
+  .about {
+    padding: 4rem 0;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .about ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .skills {
+    padding: 4rem 0;
+  }
+  
+  .skills h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .skills .progress {
+    margin-bottom: 1rem;
+  }
+  
+  .resume {
+    padding: 4rem 0;
+  }
+  
+  .resume h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .resume ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .resume ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .resume ul li h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .resume ul li p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline {
+    position: relative;
+  }
+  
+  .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: #ccc;
+    transform: translateX(-50%);
+  }
+  
+  .timeline li {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #ccc;
+  }
+  
+  .timeline li h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline li p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .projects {
+    padding: 4rem 0;
+  }
+  
+  .projects h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .projects .card {
+    margin-bottom: 2rem;
+  }
+  
+  .projects .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .projects .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .projects .card-text {
+    margin-bottom: 1rem;
+  }
+  
+  .contact {
+    padding: 4rem 0;
+  }
+  
+  .contact h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact form {
+    margin-top: 2rem;
+  }
+  
+  .contact label {
+    font-weight: bold;
+  }
+  
+  .contact input,
+  .contact textarea {
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-icons li {
+    margin-left: 1rem;
+  }
+  
+  .social-icons li a {
+    color: #333;
+  }
+  
+  .social-icons li a:hover {
+    color: #007bff;
+  }
+  
+  @media (max-width: 767.98px) {
+    .hero h1 {
+      font-size: 3rem;
+    }
+  
+    .hero p {
+      font-size: 1.5rem;
+    }
+  
+    .about h2 {
+      font-size: 2rem;
+    }
+  
+    .skills h2 {
+      font-size: 2rem;
+    }
+  
+    .resume h2 {
+      font-size: 2rem;
+    }
+  
+    .projects h2 {
+      font-size: 2rem;
+    }
+  
+    .contact h2 {
+      font-size: 2rem;
+    }
+  }
