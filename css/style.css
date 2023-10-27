@@ -8,10 +8,33 @@ body {
   header {
     position: relative;
   }
+
+  .logo{
+    width: 5rem;
+    height: auto;
+    border-radius: 50%;
+
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff;
+}
   
   .navbar {
     padding: 1rem 0;
   }
+
+  .navbar.navbar-expand-lg{
+    background-color: #000;
+
+  }
+
+  .toggle-gif{
+    width: 5rem;
+    height: auto;
+  }
+
+  
   
   .hero {
     background-image: url('https://via.placeholder.com/1920x1080');
