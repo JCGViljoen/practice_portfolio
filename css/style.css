@@ -205,6 +205,50 @@ body {
   .projects .card-text {
     margin-bottom: 1rem;
   }
+  #testimonials {
+    padding: 4rem 0;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial-card {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 20px;
+    display: none;
+  }
+  
+  .testimonial-card p {
+    font-size: 1.2rem;
+  }
+  
+  .testimonial-card cite {
+    font-style: italic;
+  }
+  
+  .testimonial-controls {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .testimonial-controls button {
+    margin: 0 10px;
+  }
+  
+  #prevTestimonial,
+  #nextTestimonial {
+    display: none;
+  }
+  
   
   .contact {
     padding: 4rem 0;
